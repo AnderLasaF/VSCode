@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){ 
 
-    string name = "Juan";    
+    const string name = "Juan"; //defined as constant, we have to declare and define it in the same sentence 
 
     //list initialization for the variable age
     int age{21};
