@@ -1,0 +1,12 @@
+Programming problem: Santa.py
+
+Due to the inflation situation, Santa has a limited budget to deliver presents in Christmas for the kids in The Netherlands. He will not be able to reach every one of them, so he wants to make sure that while delivering the presents, all the kids within a city get their present. (It has been assumed that the population of kids is 12% of the total population for every city in the list. The data has been processed from the attached file nl.xlsx)
+
+For such a purpose, Santa needs to pay his employees, which are a group of 100 people and follow a military Roman hierarchy: 
+Centurion (salary of 100) --> Decurion (salary of 50) --> Elf (salary of 10). 
+
+The Centurion is the head of the whole group, responsible for the 99 rest of the people, which are divided in groups of 11. Each sub-group is commanded by a Decurion, who is responsible for 10 elfs. And lastly, the elfs are the responsibles for delivering the presents. The duty of each elf is to deliver a present to a kid. Since there is a limited number of elfs, the whole group will have to do several rounds until the last kid of the city has received a present. Each role has a specific cost, therefore, Santa wants to get as close as possible to the budget. 
+
+For this tasks he trusts in you as a developer, so that you can tell him which is the best route. Since comparing all the posibilities will take too much time, Santa has approbed to check a limited number of times for alternatives. In case the algorithm responsible of the theoretical cost is over the budget more than 5 times, there is no need for more calculation.
+
+However, since every round will need a group of 90 elfs, the populations whose number of kids are a multiple of 90 (or as close as possible) will be picked up first (this is explained in the bottom of the coding file as well).  
